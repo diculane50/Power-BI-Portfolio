@@ -11,6 +11,7 @@ An interactive Power BI report built from a (synthetic) monthly bank statement â
 | Card | Total Spending for the month |
 | Column chart | Spending by Category (Income excluded via a visual-level filter) |
 | Line chart | Account balance over time, drilled to daily granularity |
+| Slicer | Filters the whole page by date range |
 
 ## Tools used
 
