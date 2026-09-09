@@ -25,7 +25,7 @@ Loaded the CSV via Get Data > Text/CSV.
 **2. Clean (Power Query)**
 - Set correct data types — `Transaction Date` to Date, `Amount`/`Balance` to Decimal Number (auto-detect isn't trustworthy on either of these)
 - Trimmed and cleaned the `Description` column — the raw export had inconsistent spacing and casing on repeated merchants (e.g. `  Trader Joe's #114 ` vs `TRADER JOE'S #114`)
-- Replaced blank `Category` values with "Uncategorized" — a couple of transactions came in with no category at all, and leaving them blank would have silently dropped them from any category-level total
+- Replaced blank `Category` values with "Unknown" — a couple of transactions came in with no category at all, and leaving them blank would have silently dropped them from any category-level total
 - Removed a duplicate transaction row — matched specifically on `Transaction Date`, `Description`, and `Amount` (not every column), since the running `Balance` column is legitimately different between the two rows even though the charge itself was duplicated
 
 **3. Model**
