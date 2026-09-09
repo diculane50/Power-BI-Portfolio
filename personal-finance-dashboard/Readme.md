@@ -57,4 +57,4 @@ Summing `Amount` directly would have netted expenses against income and produced
 ## Files
 
 - `practice_bank_statement.csv` — the source data
-- `personal-finance-dashboard.pbix` — the full Power BI report
+- `Practice Total Spending Dash.pbix` — the full Power BI report
