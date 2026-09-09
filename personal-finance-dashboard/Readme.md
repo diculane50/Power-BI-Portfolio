@@ -50,7 +50,9 @@ Summing `Amount` directly would have netted expenses against income and produced
 
 ## Screenshots
 
-*(add screenshots of the finished report here, e.g. `![Dashboard overview](screenshots/dashboard-overview.png)`)*
+![Full dashboard view](screenshots/Screenshot%201.png)
+ 
+![Dashboard filtered by date range](screenshots/Screenshot%202.png)
 
 ## Files
 
